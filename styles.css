@@ -33,6 +33,10 @@ body {
     height: 30rem;
 }
 
+.body-front-page h1 {
+    margin: 0;
+}
+
 .footer-session {
     display: flex;
     position: fixed;
