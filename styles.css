@@ -1,0 +1,26 @@
+body {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.top-of-page {
+    background: rgb(150, 237, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10rem;
+}
+
+.top-of-page h1 {
+    color: white;
+}
+
+.top-of-page a {
+    text-decoration: none;
+    
+}
