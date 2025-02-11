@@ -24,3 +24,11 @@ body {
     text-decoration: none;
     
 }
+
+.body-front-page {
+    display: flex;
+    background: rgb(181, 170, 170);
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
