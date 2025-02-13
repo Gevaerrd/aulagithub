@@ -23,6 +23,15 @@ git push -u origin main  # Envia as alterações para o repositório remoto no G
 
 git push
 
+
+
+-- APAGAR !! git reset -> git clean -df -> git checkout -- .    | isso reseta antes do commit
+
+git reset --soft HEAD~1    | Comando para apagar o ultimo commit e manter os arquivos pra fazer uma alteração nele
+            (hard apaga tudo)
+
+git push origin main --force      -> Atualiza a força depois de apagar
+
 -->
 
 <!DOCTYPE html>
